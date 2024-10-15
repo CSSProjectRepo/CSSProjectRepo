@@ -1,9 +1,48 @@
 body {
   background-color: beige;
-  }
+  margin-top:0;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+/*nav bar*/
+ul{
+  list-style: none;
+  display: flex;
+  margin:0;
+  padding: 10px;
+}
+
+li a{
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 24px;
+}
+
+li a:hover{
+  color: red;
+  background-color:#e2b17f;
+}
+
 
 h1 {
-    font-family: Baskervville;
-    color: #6e0e0a;
-    text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #6e0e0a;   
+  text-align: center;
 }
+
+h2{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #6e0e0a;
+  margin:0;
+}
+
+p{
+  margin:0;
+}
+
+
