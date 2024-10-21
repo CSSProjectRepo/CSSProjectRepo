@@ -1,13 +1,64 @@
+
 body {
-    background-color: beige;
-    }
-  
-  h1 {
-      font-family: Baskervville;
-      color: #6e0e0a;
-      text-align: center;
+  background-color: beige;
   }
   
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:(0,0,100);
+    font-style: normal;
+  }
+
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size:36px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #6e0e0a;
+  padding-top: 1px;
+  padding-left: 35px;  
+  font-size: 24px;
+  font-family: "Libre Baskerville", serif;
+}
+ h4 {
+  color: black;
+  padding-top: 1px;
+  padding-left: 40px;  
+  font-size: 18px;
+  font-family: "monsterrat";
+ }
+
+p {
+  color: gray;
+  padding-top: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+  font-family: "montserrat";
+
+}
+
+
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -38,6 +89,13 @@ body {
   .active {
     background-color: #6e0e0a;
   }
+
+
+img {
+  padding-top: 40px;
+  width: 100%;
+  height: auto;
+}
 
 
 
